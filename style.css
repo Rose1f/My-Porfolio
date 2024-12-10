@@ -28,11 +28,11 @@ header .container {
     align-items: center;
 }
 #di{
-    width: 100px;
-   height: 100px;
+    width: 180px;
+   height: 170px;
    
     border-radius: 50%;
-    justify-content: left;
+  
 }
 header h1 {
     font-size: 2.5rem;
