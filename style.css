@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Font Settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#di{
+    width: 100px;
+   height: 100px;
+   
+    border-radius: 50%;
+    justify-content: left;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: rgba(233, 134, 21, 0.822);
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#html{
+    width: 18px;
+    
+}
+#css{
+    width: 18px;
+    
+}
+#javaScript{
+    width: 18px;
+    
+}
+#React{
+    width: 18px;
+    
+}
+#express{
+    width: 18px;
+}
+#node{
+    width: 18px;
+}
+#mongudb{
+    width: 18px;
+}
+#c{
+    width: 18px;
+}
+#java{
+    width: 25px;
+    height: 20px;
+}
+#javascript{
+width:18px;
+}
+#python{
+    width: 18px;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+#email:hover{
+    background-color: deeppink;
+    
+}
+#linkedin:hover{
+background-color: rgb(13, 79, 223);
+}
+#github:hover{
+    background-color: greenyellow;
+}
+#hackerrank:hover{
+    background-color: rgb(5, 250, 128);
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
